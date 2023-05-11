@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonAnActivity">
+    <include
+        layout="@layout/header"
+        />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/img_MonAn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ga_rang_muoi"
+                />
+            <TextView
+                android:id="@+id/tvt_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gà rang muối"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:id="@+id/tvt_gia"
+                android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="160.000VNĐ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+                android:textColor="#F44336"
+            />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="#F44336"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mô tả"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="#F44336"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tvt_mota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gọi là muối nhưng hỗn hợp này được làm từ gạo nếp, gạo tẻ, đậu xanh và muối biển, được rang chín rồi xay thành hỗn hợp bột mịn, sau đó xóc đều với gà để tạo nên vị thơm bùi, mằn mặn rất hấp dẫn."
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:textColor="#F44336"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tvt_nguyenlieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyên liệu cho phần thịt gà \n
+        Thịt gà ta: 1 kg\n
+        Củ sả: 1 củ\n
+        Lá chanh: 10 lá\n
+        Trứng gà: 1 quả\n
+        Bột ngô hoặc bột năng\n
+        Các gia vị thường dùng: nước mắm ngon, mì chính, hạt nêm, hạt tiêu"
+                />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation= "vertical"
+        android:layout_gravity="bottom"
+        >
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id ="@+id/floating_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/gio_hang"
+            />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoá"
+            android:backgroundTint="#454343"
+            />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

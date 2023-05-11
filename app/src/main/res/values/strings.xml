@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppHai</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chi_tiet_donhang">Chi tiết đơn hàng</string>
+    <string name="ho_va_ten">Họ và tên (*)</string>
+        <string-array name="planets_array">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+        </string-array>
+</resources>

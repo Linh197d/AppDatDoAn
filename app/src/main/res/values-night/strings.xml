@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chi_tiet_donhang">Chi tiết đơn hàng</string>
+    <string name="ho_va_ten">Họ và tên (*)</string>
+</resources>

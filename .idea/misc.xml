@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppHai/app/src/main/res/drawable-v24/bg_indicator.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/bottom_sheet_monan.xml" value="0.22" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/bottomsheet_giohang.xml" value="0.10729166666666666" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_gio_hang.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_lich_su.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_mon_an.xml" value="0.15208333333333332" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_them__mon_an.xml" value="0.12395833333333334" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_them_mon.xml" value="0.13802083333333334" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/fragment_them_mon_an.xml" value="0.13802083333333334" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/header.xml" value="0.15208333333333332" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/item_gio_hang.xml" value="0.3333333333333333" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/item_lichsu.xml" value="0.22" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/item_slide.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/item_trangchu.xml" value="0.3333333333333333" />
+        <entry key="..\:/AppHai/app/src/main/res/layout/rcv_gio_hang.xml" value="0.1" />
+        <entry key="..\:/AppHai/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
